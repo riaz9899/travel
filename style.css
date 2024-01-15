@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+.header{
+
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+     
+    align-items: center;
+    margin-top: 52px;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-bottom: 50px;
+}
+.header-title{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #131318;
+     
+    font-size: 36px;
+    font-weight: 800;
+    
+    
+
+}
+.heading-color{
+    color: #FF5400;
+     
+    font-size: 56px;
+     
+    font-weight: 800;
+     
+}
+.header-menu{
+
+}
+.header-menu ul{
+    display: flex;
+    /* justify-content: end; */
+    gap: 44px;
+}
+.header-menu ul li {
+    list-style: none;
+}
+.header-menu ul li a{
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+     
+    font-size: 18px;
+     
+    font-weight: 400;
+    
+}
+.header-menu-color{
+    color: #FF5400;
+    text-align: center;
+     
+    font-size: 18px;
+     
+    font-weight: 700;
+     
+}
+.container{
+    text-align: center;
+   
+}
+.banner-container{
+    max-width: 800px;
+    text-align: center;
+    margin: 70px auto;
+     
+    
+     
+}
+.banner{
+     
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('./Images/Group-1.png');
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    width: 1500px;
+    height: 500px;
+    display: inline-block;
+    text-align: center;
+    /* margin: 135px 0; */
+    /* width: 100%; */
+    background-size:cover;
+    
+
+}
+.banner-title{
+    color: #FFF;
+    font-size: 52px;
+    font-weight: 800;
+     
+}
+.banner-des{
+    color: #FFF;
+    text-align: center;
+     
+    font-size: 16px;
+     
+    font-weight: 400;
+    line-height: 26px;  
+}
+.banner-input{
+    margin-top: 20px;
+    display: inline-flex;
+    padding: 20px 20px  ;
+    align-items: flex-start;
+    gap: 40px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.banner-input input , select{
+    width: 150px;
+    height: 45px;
+    border-style: none;
+    border-radius: 8px;
+    background: #FFF;
+    text-align: center;
+    color: #131318;
+}
+.banner-color{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+     
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    border-style: none;
+    color: #FFF;
+ 
+     
+}
+ 
